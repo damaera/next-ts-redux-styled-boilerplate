@@ -4,24 +4,21 @@ import { connect } from "react-redux";
 import { RootState } from "../../store";
 import chroma from "chroma-js";
 
-type ColorEnum = "red" | "yellow" | "blue" | "green" | "pink" | "grey";
+// type ColorEnum = "red" | "yellow" | "blue" | "green" | "pink" | "grey";
 export interface ButtonProps extends React.DOMAttributes<HTMLButtonElement> {
-  fontColor?: ColorEnum;
-  iconColor?: ColorEnum;
-  background?: ColorEnum;
-  isInvert?: boolean;
-  isLast?: boolean;
-  isBottom?: boolean;
   isDarkMode?: boolean;
-  isUpperCase?: boolean;
-  size?: "small" | "medium" | "big";
-  className?: string;
-  type?: "submit";
 }
 
 const StyledButton = styled.button<ButtonProps>`
   line-height: 1;
   position: relative;
+  padding: 10px 20px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background: ${props => (props.isDarkMode ? "#fff" : "#000")};
+  color: ${props => (props.isDarkMode ? "#000" : "#fff")};
+  font-weight: bold;
 `;
 
 const mapStateToProps = (state: RootState) => {

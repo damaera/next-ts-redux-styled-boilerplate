@@ -1,0 +1,51 @@
+{
+  "name": "next-ts-redux-styled-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server",
+    "build": "next build",
+    "start": "node server",
+    "docz": "docz dev",
+    "docz-build": "docz build",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "axios": "^0.18.0",
+    "chroma-js": "^2.0.2",
+    "docz": "^0.13.4",
+    "docz-plugin-css": "^0.11.0",
+    "docz-theme-default": "^0.12.17",
+    "dotenv": "^6.2.0",
+    "dotenv-webpack": "^1.5.7",
+    "next": "latest",
+    "next-images": "^1.0.3",
+    "next-nprogress": "^1.4.0",
+    "next-plugin-styled-icons": "^5.2.0",
+    "next-redux-wrapper": "^2.1.0",
+    "next-routes": "^1.4.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-thunk": "^2.3.0",
+    "sanitize.css": "^8.0.0",
+    "styled-components": "^4.1.2",
+    "styled-icons": "^5.5.0",
+    "typescript": "^3.2.2",
+    "typescript-styled-plugin": "^0.13.0",
+    "universal-cookie": "^3.0.7"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^1.4.1",
+    "@types/next": "^7.0.1",
+    "@types/next-redux-wrapper": "^2.0.2",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "16.0.8",
+    "@types/react-redux": "^6.0.11",
+    "@types/styled-components": "^4.1.4"
+  },
+  "license": "ISC"
+}

@@ -17,7 +17,7 @@ class Wrapper extends React.Component<HeaderProps, {}> {
   render() {
     return (
       <div>
-        Header <Button />
+        Header <Button>Hello</Button>
       </div>
     );
   }

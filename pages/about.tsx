@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Header } from "../components/organisms/Header";
-import { AppContext } from "../types";
+import { Header } from "@components/organisms/Header";
+import { AppContext } from "@/types";
 
 export interface AboutPageProps {
   query: {

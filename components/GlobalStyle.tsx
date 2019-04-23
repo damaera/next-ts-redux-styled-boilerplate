@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "./styledComponents";
 import { connect } from "react-redux";
-import { RootState } from "../store";
+import { RootState } from "@/store";
 
 export const Style = createGlobalStyle<{ isDarkMode: boolean }>`
   html, body {

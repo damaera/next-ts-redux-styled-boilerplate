@@ -1,11 +1,11 @@
 import styled from "../styledComponents";
-import { Button } from "../atoms/Button";
+import { Button } from "@components/atoms/Button";
 import * as React from "react";
 
-import { RootState } from "../../store";
+import { RootState } from "@/store";
 import { connect } from "react-redux";
 
-import routes from "../../routes";
+import routes from "@/routes";
 const Link = routes.Link;
 
 export interface HeaderProps {

@@ -1,15 +1,15 @@
 import * as React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators, Dispatch } from "redux";
-import { Button, Container } from "../components/atoms";
-import { Header } from "../components/organisms";
-import { RootState } from "../store";
-import { appToggleDarkMode } from "../store/App";
-import { counterIncrement } from "../store/Counter";
-import { AppContext } from "../types";
+import { Button, Container } from "@components/atoms";
+import { Header } from "@components/organisms";
+import { RootState } from "@store/index";
+import { appToggleDarkMode } from "@store/App";
+import { counterIncrement } from "@store/Counter";
+import { AppContext } from "@/types";
 
-import routes from "../routes";
-import { BaseAction } from "../store/utils";
+import routes from "@/routes";
+import { BaseAction } from "@store/utils";
 const Link = routes.Link;
 export interface IndexProps {
   counter: number;

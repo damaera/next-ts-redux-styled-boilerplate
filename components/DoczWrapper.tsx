@@ -4,7 +4,7 @@ import { ThemeProvider } from "./styledComponents";
 import { theme } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
 import { Provider } from "react-redux";
-import { initStore } from "../store";
+import { initStore } from "@/store";
 
 interface Props {
   children: React.ReactChild;

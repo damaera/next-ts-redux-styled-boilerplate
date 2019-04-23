@@ -8,16 +8,16 @@ import { Store } from "redux";
 
 import "sanitize.css";
 
-import { GlobalStyle } from "../components/GlobalStyle";
-import { ThemeProvider } from "../components/styledComponents";
-import { theme } from "../components/theme";
-import { initStore, RootState } from "../store";
+import { GlobalStyle } from "@components/GlobalStyle";
+import { ThemeProvider } from "@components/styledComponents";
+import { theme } from "@components/theme";
+import { initStore, RootState } from "@store/index";
 
 import NProgress from "next-nprogress/component";
-import routes from "../routes";
+import routes from "@/routes";
 import { Router as NextRoutesRouter } from "next-routes";
 
-import { redirectAuth } from "../lib/auth";
+import { redirectAuth } from "@lib/auth";
 
 const router: NextRoutesRouter = routes.Router;
 const IS_BROWSER = process.browser;

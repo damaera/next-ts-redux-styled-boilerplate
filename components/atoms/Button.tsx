@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "../styledComponents";
 import { connect } from "react-redux";
-import { RootState } from "../../store";
+import { RootState } from "@/store";
 import chroma from "chroma-js";
 
 // type ColorEnum = "red" | "yellow" | "blue" | "green" | "pink" | "grey";
